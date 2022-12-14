@@ -1,0 +1,283 @@
+/* title bar */
+.all_on_6_des_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.all_on_6_des_title h1 {
+    margin-top: 0px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: #54a2af;
+}
+
+.all_on_6_des_title p {
+    width: 99px;
+    border-bottom: 3px solid #f57825;
+    margin-top: -3px !important;
+}
+
+
+/* doctor image */
+.docto_img_main_cont {
+    display: flex;
+    justify-content: center;
+
+}
+
+/* .docto_img_cont div:nth-child(1){
+  
+}
+.docto_img_cont div:nth-child(2){
+    
+} */
+.docto_img_cont div:nth-child(1) img {
+    width: 400px;
+    height: 100%;
+    box-shadow: 0 0px 15px 0 #d0d0d0;
+    border-radius: 5px;
+}
+
+.docto_img_cont div:nth-child(2) p {
+    margin-left: 36px;
+    line-height: 2;
+}
+
+.docto_img_cont {
+    width: 80%;
+    display: flex;
+}
+
+.doctor_name_title11 {
+    margin-top: 30px;
+    padding-top: 20px;
+    margin-bottom: 0 !important;
+    padding-bottom: 10px !important;
+    background-image: url('../Assests//all_bg.jpg');
+}
+
+
+/* Why Choose Us  */
+.why_video_cont {
+    display: flex;
+    justify-content: center;
+    background-image: url('../Assests//all_bg.jpg');
+}
+
+.why_video_cont div {
+    width: 90%;
+}
+
+/* know more about cont */
+.know_more div p {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 800;
+ color:#54a2af ;  
+   
+    text-decoration: none;
+}
+.knowmore_cont img{
+    width:50px;
+ transform: rotate(90deg);
+}
+.know_more div a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:0px;
+    font-size: 25px;
+    text-align: center;
+ color: #ff883a;
+    text-decoration: none;
+    font-weight:600;
+}
+.knowmore_cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.know_more {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    
+}
+
+.know_more div {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+
+/* vlog */
+.vlogn_cont {
+    display: flex;
+    justify-content: center;
+    background-image: url('../Assests//all_bg.jpg');
+    padding-bottom: 70px;
+}
+
+.vlogn_cont div {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 400px;
+}
+
+/* Discover Chennai  */
+.discover_cont {
+    display: flex;
+    justify-content: center;
+
+}
+
+.discover_main_cont_one {
+    width: 400px;
+    height: 350;
+    margin: 30px;
+
+}
+
+
+.discover_main_cont {
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.discover_main_cont_one1 .swiper-button-next,
+.swiper-button-prev {
+    color: white;
+    scale: 0.7;
+}
+
+.discover_main_cont_one2 p {
+    text-align: center;
+}
+
+.discover_main_cont_one2 {
+    background-color: #ede9e9;
+}
+
+.discover_main_cont_one2 p:nth-child(1) {
+    color: #54a2af;
+    font-weight: 600;
+    padding-top: 12px;
+    font-size: 20px;
+}
+
+.discover_main_cont_one2 p:nth-child(2) {
+    color: black;
+    padding: 0 5px;
+    padding-bottom: 65px;
+    font-size: 16px;
+    word-spacing: 1px;
+    color: #292929;
+}
+
+.discover_main_cont_one1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* video consultation  */
+
+
+
+
+
+
+@media (max-width:600px) {
+    .know_more div br{
+        display: none;
+    }
+    .know_more div a {
+        margin-top: -10px;
+        font-size: 19px;
+        text-align: center;
+        color: #ff883a;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    .know_more {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 20px;
+        box-shadow: none;
+    }
+    .know_more div p {
+        font-size: 21px;
+        text-align: center;
+        font-weight: 800;
+        color: #54a2af;
+        text-decoration: none;
+    }
+    .know_more div {
+        padding: 0;
+        width: 97%;
+        flex-direction: column;
+        border-radius: 0;
+    }
+    .docto_img_cont div:nth-child(1) {
+        display: flex;
+        justify-content: center;
+        margin-top: -10px;
+    }
+
+    .docto_img_cont div:nth-child(2) {
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    .docto_img_cont div:nth-child(1) img {
+        width: 90%;
+    }
+
+    .docto_img_cont {
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .docto_img_cont div:nth-child(2) p {
+        margin-left: 0;
+        line-height: 2;
+        text-align: center;
+    }
+    .why_video_cont div {
+        width: 97%;
+    }
+    .know_more div {
+        padding: 8px;
+        width: 97%;
+        flex-direction: column;
+        border-radius: 0;
+        border-radius: 0;
+    }
+ 
+    .know_more div a {
+        font-size: 18px;
+        margin: 0;
+    }
+    .vlogn_cont div {
+        display: flex;
+        justify-content: center;
+        width: 95%;
+        height: 400px;
+    }
+    .discover_main_cont_one {
+        margin: 10px;
+        width: 320px;
+    }
+}
